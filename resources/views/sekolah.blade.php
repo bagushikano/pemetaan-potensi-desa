@@ -97,33 +97,6 @@
     <script>
         $(document).ready(function(){
             $('#sekolah').addClass('active');
-            let mainMap = L.map('mapid').setView([-8.612193497317223, 115.21365428261726], 10);
-            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-                maxZoom: 18,
-                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                id: 'mapbox/streets-v11',
-                tileSize: 512,
-                zoomOffset: -1
-            }).addTo(mainMap);
-
-            // // load polyline from db
-            // $.getJSON('./tugas6/loadPoint.php', {get_param: 'value'}, function(data) {
-            //     $.each(data, function(index, element) {
-            //         var bruh = JSON.parse(element.koor);
-            //         var polygon = L.polyline(bruh, {id: element.id, color: 'red'}).addTo(mainMap);
-            //         // update handler here
-            //         polygon.on('pm:update', e => {
-            //             editLine(e);
-            //         });
-            //     });
-            // });
-
-            // add toolbar to map
-            mainMap.pm.addControls({
-                position: 'topleft',
-                drawCircle: false,
-            });
         });
     </script>
     @if((session('done-delete')))
