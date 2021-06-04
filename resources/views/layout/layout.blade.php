@@ -68,7 +68,7 @@
             </li>
 
             <li class="nav-item" id="about">
-                <a class="nav-link" onclick='$("#aboutApp").modal("show");' return false;'>
+                <a class="nav-link" onclick="openAboutModal();">
                     <i class="fas fa-fw fa-info"></i>
                     <span>Tentang aplikasi</span></a>
             </li>
@@ -134,6 +134,10 @@
     <script src="{{asset('template/sbadmin/js/sb-admin-2.min.js')}}"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script>
+
+        function openAboutModal() {
+            $('#aboutApp').modal('show');
+        }
         function alertDone(msg){
           Swal.fire({
             title: "Berhasil",
