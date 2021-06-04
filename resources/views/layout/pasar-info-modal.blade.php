@@ -8,12 +8,12 @@
           </button>
         </div>
         <div class="modal-body">
-            <div class="text-l font-weight-bold text-success text-uppercase mb-1">Nama pasar</div>
-            <h4 class="h4 mb-4 text-gray-800" id="namaPasar">Nama pasar</h1>
-                <div class="text-l font-weight-bold text-success text-uppercase mb-1">Lokasi desa</div>
-                <h4 class="h4 mb-4 text-gray-800" id="lokasiDesaPasar">Lokasi desa</h1>
-            <div class="text-l font-weight-bold text-success text-uppercase mb-1">Alamat pasar</div>
-            <h4 class="h4 mb-4 text-gray-800" id="alamatPasar">Alamat pasar</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Nama pasar</div>
+            <h4 class="h5 mb-0 font-weight-bold text-gray-800" id="namaPasar">Nama pasar</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Lokasi desa</div>
+            <h4 class="h5 mb-0 font-weight-bold text-gray-800" id="lokasiDesaPasar">Lokasi desa</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Alamat pasar</div>
+            <h4 class="h5 mb-0 font-weight-bold text-gray-800" id="alamatPasar">Alamat pasar</h1>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
