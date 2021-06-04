@@ -77,7 +77,7 @@
                                                     </div>
                                                     <select class="custom-select" id="desa" name="desa">
                                                         @foreach ($desa as $desas)
-                                                            @if ($desas->id == $sekolah->id)
+                                                            @if ($desas->id == $sekolah->id_desa)
                                                             <option selected value={{ $desas->id }}>{{ $desas->nama}}</option>
                                                             @else
                                                             <option value={{ $desas->id }}>{{ $desas->nama}}</option>
