@@ -41,7 +41,7 @@
 
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">login</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Login</h1>
                             </div>
                             <form action="{{ route("submit_login")}}" method="POST" id="login" class="user">
                             @csrf
@@ -58,9 +58,6 @@
                                     Login
                                 </button>
                             </form>
-                            <div class="text-center">
-                                <a class="small" href="register.html">Create an Account!</a>
-                            </div>
                         </div>
                     </div>
                 </div>
