@@ -181,7 +181,7 @@
                 var polygon = L.polyline(bruh, {id: id, color: 'red'}).addTo(mainMap);
                 polygon.on('click', function(e) {
                     $('#infoDesa').modal('show');
-                    document.getElementById('namaDesa').innerHTML=( "Nama desa: " + element['nama']);
+                    document.getElementById('namaDesa').innerHTML=(element['nama']);
                 });
             });
 
