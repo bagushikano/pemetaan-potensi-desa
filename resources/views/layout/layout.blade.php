@@ -58,10 +58,13 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-arrow-left"></i>
-                    <span>Logout</span>
-                </a>
+                <form action="{{ route('logout') }}" method="POST" class="nav-link p-0 m-0">
+                    @csrf
+                    <a class="nav-link" onclick='this.parentNode.submit(); return false;'>
+                        <i class="fas fa-fw fa-arrow-left"></i>
+                        <span>Logout</span>
+                    </a>
+                </form>
             </li>
 
             <!-- Divider -->

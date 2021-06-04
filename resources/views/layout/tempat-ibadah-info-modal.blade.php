@@ -8,14 +8,14 @@
           </button>
         </div>
         <div class="modal-body">
-            <div class="text-l font-weight-bold text-primary text-uppercase mb-1">Nama tempat ibadah</div>
-            <h4 class="h4 mb-4 text-gray-800" id="namaTempatIbadah">Nama tempat ibdah</h1>
-            <div class="text-l font-weight-bold text-primary text-uppercase mb-1">Lokasi desa</div>
-            <h4 class="h4 mb-4 text-gray-800" id="lokasiDesaTempatIbadah">Desa</h1>
-            <div class="text-l font-weight-bold text-primary text-uppercase mb-1">Alamat tempat ibdah</div>
-            <h4 class="h4 mb-4 text-gray-800" id="alamatTempatIbadah">Alamat sekolah</h1>
-            <div class="text-l font-weight-bold text-primary text-uppercase mb-1">Agama tempat ibadah</div>
-            <h4 class="h4 mb-4 text-gray-800" id="agamaTempatIbadah">Agama tempat ibadah</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Nama tempat ibadah</div>
+            <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="namaTempatIbadah">Nama tempat ibdah</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Lokasi desa</div>
+            <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="lokasiDesaTempatIbadah">Desa</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Alamat tempat ibdah</div>
+            <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="alamatTempatIbadah">Alamat sekolah</h1>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Agama tempat ibadah</div>
+            <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="agamaTempatIbadah">Agama tempat ibadah</h1>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>

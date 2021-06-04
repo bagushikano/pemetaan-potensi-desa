@@ -8,15 +8,15 @@
           </button>
         </div>
         <div class="modal-body">
-            <div class="text-xs font-weight-bold text-primary mb-1">Nama sekolah</div>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Nama sekolah</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="namaSekolah">Nama sekolah</h1>
-            <div class="text-xs font-weight-bold text-primary mb-1">Lokasi desa</div>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Lokasi desa</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="lokasiDesaSekolah">Desa</h1>
-            <div class="text-xs font-weight-bold text-primary mb-1">Alamat sekolah</div>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Alamat sekolah</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="alamatSekolah">Alamat sekolah</h1>
-            <div class="text-xs font-weight-bold text-primary mb-1">Jenis sekolah</div>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Jenis sekolah</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="jenisSekolah">Jenis sekolah</h1>
-            <div class="text-xs font-weight-bold text-primary mb-1">Jenjang sekolah</div>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Jenjang sekolah</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="jenjangSekolah">Jenjang sekolah</h1>
         </div>
         <div class="modal-footer">

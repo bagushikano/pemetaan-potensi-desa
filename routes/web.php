@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', "IndexController@showHome")->name('homepage');
 
 Route::get('/login', "LoginController@showLogin")->name('login_page')->middleware('guest');
+Route::post('/logout', 'LoginController@showLogin@logout')->name('logout');
 Route::post('/submit_login', "LoginController@login")->name('submit_login');
 Route::get('/dashboard', "DashboardController@showDashboard")->name('dashboard');
 

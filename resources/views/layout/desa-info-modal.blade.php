@@ -8,7 +8,7 @@
           </button>
         </div>
         <div class="modal-body">
-            <div class="text-xs font-weight-bold text-primary mb-1">Nama desa</div>
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Nama desa</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="namaDesa">Nama desa</h1>
         </div>
         <div class="modal-footer">
