@@ -9,7 +9,7 @@
         </div>
         <div class="modal-body">
             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Developed by</div>
-            <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="namaDesa">Bagus Wiryadika - 1805551059</h1>
+            <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="namaDesa">Bagus Wiryadika</h1>
             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">GitHub</div>
             <h4 class="h5 mb-4 font-weight-bold text-gray-800" id="namaDesa"><a href="https://github.com/bagushikano">Here</a></h4>
         </div>

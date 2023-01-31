@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Pemetaan potensi desa</title>
+        <title>Pemetaan Potensi Desa</title>
         <!-- Custom fonts for this template-->
         <link href="{{asset('template/sbadmin/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
         <link
@@ -26,6 +26,7 @@
 
         <!-- Custom scripts for all pages-->
         <script src="{{asset('template/sbadmin/js/sb-admin-2.min.js')}}"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <style>
             #mapid { height: 100vh; }
         </style>
@@ -38,10 +39,11 @@
         @include('/layout/pasar-info-modal')
         @include('/layout/sekolah-info-modal')
         @include('/layout/tempat-ibadah-info-modal')
+        @include('/layout/about-modal')
         <script>
             $(document).ready(function(){
                 $('#beranda').addClass('active');
-                let mainMap = L.map('mapid').setView([-8.612193497317223, 115.21365428261726], 10);
+                let mainMap = L.map('mapid').setView([-8.612193497317223, 115.21365428261726], 14);
                 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                     maxZoom: 18,
                     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -126,6 +128,28 @@
                 });
 
                 mainMap.invalidateSize();
+
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: 'top-right',
+                    iconColor: 'black',
+                    customClass: {
+                        popup: 'colored-toast'
+                    },
+                    showConfirmButton: true,
+                    showCancelButton: true
+                })
+
+                Toast.fire({
+                    icon: 'info',
+                    title: 'Selamat datang di Aplikasi Pemetaan Potensi Desa!',
+                    text: 'Untuk melihat informasi Desa silahkan klik pada batas Desa dan untuk informasi potensi Desa klik marker pada peta.',
+                    confirmButtonText: 'Oke!',
+                    cancelButtonText: 'Tentang aplikasi'
+                }).then((result) => {
+                if (result.isDismissed) {
+                    $('#aboutApp').modal('show');
+                }})
             });
         </script>
     </body>
